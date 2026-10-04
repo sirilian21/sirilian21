@@ -17,7 +17,7 @@
 
 <br><br>
 
-Mahasiswa di Indonesia. Saya membangun aplikasi web dengan Laravel dan menambahkan fitur AI dengan Python.
+MAHASISWA SISTEM INFORMASI SEAKARANG SEMESTER 3.
 
 `SEKARANG` Redesain website HIMASIF dengan Laravel.
 

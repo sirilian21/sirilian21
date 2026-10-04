@@ -1,5 +1,35 @@
-## CONTRIBUTION
+name: snake
 
-<div align="center">
-<img src="https://raw.githubusercontent.com/Sirilian21/sirilian21/output/snake.svg" alt="Ular yang memakan grafik kontribusi GitHub" width="100%">
-</div>
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?color_snake=#4AEDD9&color_dots=#14261A,#2F6B2A,#4C9A2A,#5DBB3F,#7CFF6B
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to output branch
+        run: |
+          cd dist
+          git init -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snake.svg
+          git commit -m "Update snake"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" output

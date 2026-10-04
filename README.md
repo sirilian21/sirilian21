@@ -7,7 +7,7 @@
 
 <div align="center">
 
-<img src="banner.svg" alt="Sirilian21, mahasiswa Laravel, Python, dan AI" width="100%">
+<img src="banner.svg" alt="STILL LEARNING ABOUT CS & AI DEVELOPMENT" width="100%">
 
 <br>
 

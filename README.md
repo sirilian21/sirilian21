@@ -51,6 +51,12 @@ Mahasiswa di Indonesia. Saya membangun aplikasi web dengan Laravel dan menambahk
 
 <img src="divider.svg" alt="" width="100%">
 
+## CONTRIBUTION
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Sirilian21/sirilian21/output/snake.svg" alt="Ular yang memakan grafik kontribusi GitHub" width="100%">
+</div>
+
 ## CONTACT
 
 Email: [sirilian21@gmail.com](mailto:sirilian21@gmail.com) &nbsp;·&nbsp; GitHub: [@Sirilian21](https://github.com/Sirilian21)

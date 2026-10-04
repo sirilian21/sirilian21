@@ -17,9 +17,9 @@
 
 <br><br>
 
-MAHASISWA SISTEM INFORMASI SEAKARANG SEMESTER 3.
+a third-semester university student.
 
-`SEKARANG` Redesain website HIMASIF dengan Laravel.
+`SEKARANG` Still in the process of becoming an IT specialist..
 
 </div>
 

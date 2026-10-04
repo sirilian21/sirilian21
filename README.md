@@ -19,7 +19,7 @@
 
 a third-semester university student.
 
-`SEKARANG` Still in the process of becoming an IT specialist..
+`NOW` Still in the process of becoming an IT specialist..
 
 </div>
 

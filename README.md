@@ -1,7 +1,7 @@
 <!--
   Profil GitHub v2. Tema Minecraft futuristik.
   File yang dipakai (semua di root repo ini): banner.svg, divider.svg, hotbar.svg,
-  quest-blockrealm.svg, quest-edufin.svg, quest-himasif.svg, footer.svg
+  quest-blockrealm.svg, quest-edufin.svg, quest-himasif.svg, mob.svg, footer.svg
   Perbarui baris "SEKARANG" tiap bulan. Hapus baris itu jika sudah tidak berlaku.
 -->
 
@@ -49,13 +49,9 @@ Mahasiswa di Indonesia. Saya membangun aplikasi web dengan Laravel dan menambahk
     src="https://github-readme-stats.vercel.app/api?username=Sirilian21&show_icons=true&border_radius=0&custom_title=Player%20Stats&bg_color=0B0F14&title_color=7CFF6B&text_color=C9D6DF&icon_color=4AEDD9&border_color=1F3A2B" />
 -->
 
+<img src="mob.svg" alt="Glitch, mob orisinal bergaya voxel, berjalan melintasi deretan blok dan memakannya" width="100%">
+
 <img src="divider.svg" alt="" width="100%">
-
-## CONTRIBUTION
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/Sirilian21/sirilian21/output/snake.svg" alt="Ular yang memakan grafik kontribusi GitHub" width="100%">
-</div>
 
 ## CONTACT
 
